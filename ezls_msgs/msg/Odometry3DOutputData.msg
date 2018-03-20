@@ -1,0 +1,9 @@
+Header header
+float64 distanceOverGround
+float64 speed
+geometry_msgs/PoseStamped pose2Filter
+geometry_msgs/PoseStamped pose2Gyro
+geometry_msgs/PoseStamped pose3Filter
+geometry_msgs/PoseStamped pose3Gyro
+geometry_msgs/Vector3 anglesFilter
+geometry_msgs/Vector3 anglesGyro

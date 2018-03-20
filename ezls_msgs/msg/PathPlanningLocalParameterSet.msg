@@ -1,0 +1,29 @@
+Header header
+
+uint32 numLoD
+
+geometry_msgs/Vector3 resolution
+geometry_msgs/Vector3 minimalBounds
+geometry_msgs/Vector3 maximalBounds
+geometry_msgs/Vector3 vehicleSize
+
+bool buildObstacleMap
+float64 maxInterCellHeightDifference
+
+bool interpolate
+float64 interpolationDistance
+
+bool clearCircle
+float64 clearCircleRadius
+
+bool erodeUnknownArea
+bool erodeMapBorder
+float64 erodeUnknownAreaDistance
+
+bool morphOpObstacles
+float64 morphOpObstaclesKernelSize
+
+bool findNearObstaclesByHeight
+float64 maxNearObstacleHeight
+float64 minNearObstacleCircleRadius
+float64 maxNearObstacleCircleRadius

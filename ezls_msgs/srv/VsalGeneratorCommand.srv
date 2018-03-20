@@ -1,0 +1,16 @@
+# 0: SetState
+# 1: SetMinAgitatorRPM
+# 2: SetLoadInc
+# 3: SetLoadDec
+
+int32 command
+
+uint8 state
+uint16 agitatorMinRPM
+uint8 loadInc
+uint8 loadDec
+
+---
+
+# Getter/Command Result
+bool success

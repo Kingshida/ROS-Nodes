@@ -1,0 +1,8 @@
+sensor_msgs/PointCloud2 pointCloud
+PointCloud3Parameters params
+uint32 numLoD
+geometry_msgs/Vector3 resolution
+geometry_msgs/Vector3 minimalBounds
+geometry_msgs/Vector3 maximalBounds
+geometry_msgs/Vector3 vehicleSize
+float64 maxInterCellHeightDifference

@@ -1,0 +1,13 @@
+float64 timestamp
+int32 command
+
+
+# Parameter set for FaE Rollover
+float64 hDecay_rollOver
+float64 hDecay_tiltOver
+float64 hCoefficient_rollOver
+float64 hCoefficient_tiltOver
+float64 eCoefficient_rollOver
+float64 eCoefficient_tiltOver
+float64 fCoefficient_rollOver
+float64 fCoefficient_tiltOver

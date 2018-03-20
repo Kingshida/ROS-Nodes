@@ -1,0 +1,5 @@
+Header header
+
+Pose3 vehicleState
+GlobalWaypoint3 selectedWaypoint
+float64 referenceDirection

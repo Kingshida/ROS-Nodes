@@ -1,0 +1,4 @@
+Header header
+Pose3 vehicleState
+float64 referenceDirection
+float64 referenceSpeed

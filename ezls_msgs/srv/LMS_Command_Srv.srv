@@ -1,0 +1,53 @@
+float64 timestamp
+
+# 0-0x: Getter
+# 10-1x: Setter/Command
+int32 command
+
+
+# Command 10: isConnected(), only return value
+
+# Command 11: Set next 4 Parameters, setParameters()
+
+# Command 12, setLmsResolution()
+int32 resolution
+# Command 13, setLmsRange()
+int32 range
+# Command 14, setLmsRemissionMode()
+int32 remissionMode
+# Command 15, setTilt()
+float64 tilt
+float64 speed
+
+# Command 16, enableAutoTilt()
+int32 time
+float64 minTilt
+float64 maxTilt
+
+# Command 17, disableAutoTilt()
+
+# Command 18, setMinDistances()
+int32[] minDistances
+
+
+---
+# Command 0 = Get All
+
+# Command 1, getTilt()
+float64 tilt
+
+# Command 2, getTiltMin()
+float64 minTilt
+
+# Command 3, getTiltMax()
+float64 maxTilt
+
+# Command 4, getMinDistances()
+int32[] minDistances
+
+# Command 5, getConfiguration()
+LmsConfiguration configuration
+
+
+# Getter/Command Result
+bool success

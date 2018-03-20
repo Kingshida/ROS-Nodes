@@ -1,0 +1,20 @@
+# 0: SetState
+# 1: SetFramerate
+# 2: SetShutter
+# 3: SetIllumination
+# 4: SetAddress
+# 5: SetData
+int32 command
+
+uint8 state
+uint8 framerate
+uint8 shutter
+uint8 illumination
+uint8 address
+uint8 data
+
+
+---
+
+# Getter/Command Result
+bool success

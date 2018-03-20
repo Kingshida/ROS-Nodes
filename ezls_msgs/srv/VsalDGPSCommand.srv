@@ -1,0 +1,9 @@
+# 0: SetState
+int32 command
+
+uint8 state
+
+---
+
+# Getter/Command Result
+bool success

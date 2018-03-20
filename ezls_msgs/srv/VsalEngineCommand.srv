@@ -1,0 +1,24 @@
+# 0: SetState
+# 1: SetReferenceGas
+# 2: SetReferenceGear
+# 3: SetReferenceBrakingStrength
+# 4: SetStarterTime
+# 5: SetVentilation
+# 6: SetHorn
+# 7: SetLight
+
+int32 command
+
+uint8 state
+float64 referenceGas
+uint8 referenceGear
+float64 referenceBrakingStrength
+uint8 starterTime
+uint8 ventilation
+uint8 horn
+uint8 light
+
+---
+
+# Getter/Command Result
+bool success

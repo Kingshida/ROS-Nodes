@@ -1,0 +1,12 @@
+uint8   state
+float64 uptime
+float64 referenceGas
+uint8   referenceGear
+float64 referenceBrakingStrength
+uint8   starterTime
+uint8   ventilation
+uint8   horn
+uint8   light
+uint8   rcQuality
+uint8   securityCircuit
+float64 rcGasLimit

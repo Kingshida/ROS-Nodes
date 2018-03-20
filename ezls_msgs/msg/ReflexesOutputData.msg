@@ -1,0 +1,5 @@
+float64 recommendedHeading
+float64 recommendedSpeed
+float64 referenceHeading
+float64 referenceSpeed
+int8 referenceDirection

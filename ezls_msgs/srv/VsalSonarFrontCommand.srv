@@ -1,0 +1,27 @@
+# 0: SetState
+# 1: SetEnabledGroups
+# 2: SetGroup0Init
+# 3: SetGroup1Init
+# 4: SetGroup2Init
+# 5: SetGroup3Init
+# 6: SetGroup4Init
+# 7: SetGroup5Init
+# 8: SetGroup6Init
+# 9: SetGroup7Init
+int32 command
+
+uint8 state
+uint8 enabledGroups
+uint8 group0Init
+uint8 group1Init
+uint8 group2Init
+uint8 group3Init
+uint8 group4Init
+uint8 group5Init
+uint8 group6Init
+uint8 group7Init
+
+---
+
+# Getter/Command Result
+bool success

@@ -1,0 +1,18 @@
+# 0: SetState
+# 1: SetReferenceDeflection
+# 2: SetReferenceSteeringForce
+# 3: SetReferenceTurningSpeed
+# 4: setReferenceTurningAcceleration
+int32 command
+
+uint8 state
+uint8 referenceDeflection
+uint8 referenceSteeringForce
+uint8 referenceTurningSpeed
+uint8 referenceTurningAcceleration
+
+
+---
+
+# Getter/Command Result
+bool success
